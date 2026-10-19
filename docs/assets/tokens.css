@@ -1,0 +1,45 @@
+/* 밸류인포 글로벌 뉴스브리핑 디자인 변수 (화면 개선 설계 §3.1). 색 숫자는 이 파일에만 쓴다. */
+:root {
+  --navy: #041F46;
+  --navy-2: #0B1E3A;
+  --navy-3: #0E3466;
+  --teal: #009399;
+  --teal-light: #3FB3B8;
+  --teal-dark: #026E80;
+  --teal-soft: #E6F6F5;
+  --bg: #F4F6F9;
+  --card: #FFFFFF;
+  --line: #E3E8EE;
+  --ink: #14213B;
+  --muted: #5B6577;
+  --on-teal: #FFFFFF;
+  --on-navy: #C9D3E3;
+  --on-navy-strong: #FFFFFF;
+  --good: #1E7B4A;
+  --good-soft: #E7F5EC;
+  --warn: #8A6100;
+  --warn-soft: #FFF8E6;
+  --warn-line: #F1D58A;
+  --bad: #B42318;
+  --bad-soft: #FDECEA;
+  --on-bad: #FFFFFF;
+  --state: #B54708;
+  --state-soft: #FEF0E6;
+  --font: Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 24px;
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --radius-pill: 999px;
+  --shadow: 0 1px 3px rgba(4, 31, 70, 0.08);
+  --focus: 0 0 0 3px rgba(0, 147, 153, 0.35);
+}

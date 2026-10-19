@@ -4,36 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>지난 날짜 · 해외 정보원 모니터</title>
+<title>지난 날짜 · 밸류인포 글로벌 뉴스브리핑</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="../assets/tokens.css">
+<link rel="stylesheet" href="../assets/components.css">
 <link rel="stylesheet" href="../assets/site.css">
 </head>
-<body>
+<body data-root="../" data-day="" data-search-days="">
 <header class="top">
-  <a class="brand" href="../index.html">해외 정보원 모니터</a>
+  <a class="brand" href="../index.html"><span class="dot" aria-hidden="true"></span>밸류인포 글로벌 뉴스브리핑</a>
+  <form class="search" role="search" hidden>
+    <input type="search" name="q" maxlength="100" placeholder="최근 7일 추천 기사 검색" aria-label="최근 7일 추천 기사 검색">
+  </form>
   <a class="days" href="../days/index.html">지난 날짜</a>
 </header>
 <main>
+<section id="search-results" class="search-results" hidden aria-live="polite"></section>
 <h1>지난 날짜</h1>
-<table class="days">
-  <tr><th>날짜</th><th>분류</th><th>추천</th><th></th></tr>
-  <tr>
-    <td><a href="../2026-10-19/index.html">2026-10-19 (월)</a></td>
-    <td>1,002</td><td>80</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="../2026-10-18/index.html">2026-10-18 (일)</a></td>
-    <td>1,001</td><td>80</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><a href="../2026-10-17/index.html">2026-10-17 (토)</a></td>
-    <td>1,031</td><td>80</td>
-    <td></td>
-  </tr>
-</table>
+<section class="month">
+  <h2>2026년 10월</h2>
+  <ul class="day-grid">
+    <li class="card"><a href="../2026-10-19/index.html"><b>19일 (월)</b></a>
+      <span class="muted">분류 1,002 · 추천 80</span>
+</li>
+    <li class="card"><a href="../2026-10-18/index.html"><b>18일 (일)</b></a>
+      <span class="muted">분류 1,001 · 추천 80</span>
+</li>
+    <li class="card"><a href="../2026-10-17/index.html"><b>17일 (토)</b></a>
+      <span class="muted">분류 1,031 · 추천 80</span>
+</li>
+  </ul>
+</section>
 </main>
 <footer>KIEP 연구 참고용 · AI가 분류·요약했으며 오류가 있을 수 있습니다 · 원문을 확인하세요</footer>
+<nav class="tabbar" aria-label="하단 메뉴">
+  <a href="../index.html">오늘</a>
+  <a href="../index.html#regions">권역</a>
+  <a class="tab-search" href="../index.html#search">검색</a>
+  <a href="../days/index.html">날짜</a>
+</nav>
 <script src="../assets/site.js" defer></script>
 </body>
 </html>
