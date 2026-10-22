@@ -80,6 +80,8 @@ html:not(.js) .btn.more { display: none; }
 }
 
 /* 국내 언론 (국내 설계 §5) */
-.cat-link { margin: var(--sp-2) 0 var(--sp-3); }
 .dsec { margin-top: var(--sp-6); }
 .dsec h2 .muted { font-weight: 400; font-size: var(--fs-sm); }
+.catbar { display: flex; gap: var(--sp-2); padding: var(--sp-2) var(--sp-5); background: var(--card); border-bottom: 1px solid var(--line); overflow-x: auto; }
+.catbar a { padding: var(--sp-2) var(--sp-4); border-radius: 999px; color: var(--muted); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.catbar a.on { background: var(--teal-dark); color: var(--on-teal); }
