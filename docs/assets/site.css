@@ -78,3 +78,8 @@ html:not(.js) .btn.more { display: none; }
   .tabbar { display: grid; grid-template-columns: repeat(4, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--card); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
   .tabbar a { padding: var(--sp-3) 0; text-align: center; color: var(--ink); text-decoration: none; font-size: var(--fs-xs); font-weight: 600; }
 }
+
+/* 국내 언론 (국내 설계 §5) */
+.cat-link { margin: var(--sp-2) 0 var(--sp-3); }
+.dsec { margin-top: var(--sp-6); }
+.dsec h2 .muted { font-weight: 400; font-size: var(--fs-sm); }
